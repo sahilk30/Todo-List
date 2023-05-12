@@ -1,0 +1,90 @@
+body {
+	background-color: #f7f7f7;
+	font-family: Arial, sans-serif;
+	margin: 0;
+	padding: 0;
+}
+
+.container {
+	background-color: white;
+	border-radius: 5px;
+	margin: auto;
+	margin-top: 50px;
+	padding: 20px;
+	width: 500px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+	text-align: center;
+	color: #333;
+}
+
+input[type="text"] {
+	border: 2px solid #d3d3d3;
+	border-radius: 5px;
+	font-size: 16px;
+	margin-right: 5px;
+	padding: 5px;
+	width: 70%;
+}
+
+button {
+	background-color: #f44336;
+	border: none;
+	border-radius: 5px;
+	color: white;
+	cursor: pointer;
+	font-size: 16px;
+	padding: 5px 10px;
+	transition: background-color 0.2s;
+}
+
+button:hover {
+	background-color: #e53935;
+}
+
+ul {
+	list-style-type: none;
+	padding: 0;
+	margin-top: 20px;
+}
+
+li {
+	border-radius: 5px;
+	font-size: 16px;
+	margin-top: 10px;
+	padding: 10px;
+	position: relative;
+	transition: background-color 0.2s;
+}
+
+li span {
+	cursor: pointer;
+	position: absolute;
+	right: 10px;
+	top: 10px;
+	transition: color 0.2s;
+}
+
+li.checked {
+	background-color: #d3d3d3;
+}
+
+li.checked span {
+	color: #333;
+	text-decoration: none;
+	cursor: pointer;
+}
+
+li.checked:hover span {
+	color: #333;
+}
+
+li:hover {
+	background-color: #e3e3e3;
+}
+
+li:hover span {
+	color: #f44336;
+}
